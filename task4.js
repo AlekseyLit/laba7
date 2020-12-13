@@ -1,3 +1,11 @@
 console.log ("задача 4");
 let year=prompt("Введите проверяемый год:",2000);
-alert (year%4==0 AND )
+if(year%4==0 && year%100!=0){
+    alert(true)
+}else{
+    alert(false)
+}
+
+
+//let result= year%4==0 && year%100!=0;
+//alert (result );
